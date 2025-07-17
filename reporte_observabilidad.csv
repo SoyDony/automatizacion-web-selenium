@@ -1,0 +1,5 @@
+Paso,Estado,Detalles
+Abrir página principal,OK,0.47s
+Click en enlace 'Contacto',OK,
+Rellenar formulario de contacto,OK,
+Prueba error intencional,FAIL,Elemento no encontrado: ID='elemento_que_no_existe'
