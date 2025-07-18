@@ -1,47 +1,45 @@
-Automatización y Monitoreo Web con Python & Selenium 🚀🐍
-¡Hola! 👋 Este proyecto es una demo simple pero funcional de automatización y monitoreo web usando Python y Selenium, aplicada a una web que desarrollé anteriormente.
+# Automatización y Monitoreo Web con Python & Selenium 🚀🐍
+
+¡Hola! 👋 Este proyecto es una demo **simple pero funcional** de automatización y monitoreo web usando **Python** y **Selenium**, aplicada a una web que desarrollé anteriormente.
 
 Está pensado como punto de partida para tareas de automatización, pruebas básicas y generación de reportes visuales.
 
-¿Qué hace? 🔍
-Este script automatiza una serie de acciones sobre la página Little Lemon:
+---
 
-🌐 Abre la página principal
+## ¿Qué hace? 🔍
 
-📋 Navega al formulario de contacto
+Este script automatiza una serie de acciones sobre la página [Little Lemon](https://soydony.github.io/Little-Lemon/index.html):
 
-✍️ Completa y envía datos de prueba
+- 🌐 Abre la página principal  
+- 📋 Navega al formulario de contacto  
+- ✍️ Completa y envía datos de prueba  
+- ⚠️ Simula un error intencional buscando un elemento inexistente  
+- 📸 Toma capturas si algo falla  
+- 📊 Guarda los resultados en CSV y HTML  
 
-⚠️ Simula un error intencional buscando un elemento inexistente
+---
 
-📸 Toma capturas si algo falla
+## ¿Por qué este proyecto? 💡
 
-📊 Guarda los resultados en CSV y HTML
-
-¿Por qué este proyecto? 💡
 Quería mostrar mis primeras habilidades en:
 
-Automatización web con Selenium
-
-Pruebas controladas y scripting básico
-
-Reportes automatizados con visualización
-
-Registro de errores con capturas
+- Automatización web con **Selenium**  
+- Pruebas controladas y scripting básico  
+- Reportes automatizados con visualización  
+- Registro de errores con capturas  
 
 Ideal para aprender, experimentar o compartir en GitHub y LinkedIn como ejemplo práctico 📚💼
 
-Requisitos 🛠️
-Python 3.7 o superior
+---
 
-Microsoft Edge WebDriver
-⚠️ No olvides ajustar la ruta del driver en el script monitor.py
+## Requisitos 🛠️
 
-Librerías necesarias:
+- Python 3.7 o superior  
+- [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)  
+  ⚠️ No olvides ajustar la ruta del driver en el script `monitor.py`
+- Librerías necesarias:
 
-bash
-Copiar
-Editar
+```bash
 pip install -r requirements.txt
 Instalación y uso 🚀
 Cloná el proyecto:
@@ -118,5 +116,3 @@ MIT — Libre para usar, modificar y compartir ⭐
 Si te gustó este proyecto o querés dar sugerencias, conectate conmigo en LinkedIn o dejá una ⭐ en el repo.
 
 ¡Feliz automatización! 🧪⚡️🐍
-
-
