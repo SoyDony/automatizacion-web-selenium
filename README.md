@@ -117,6 +117,4 @@ Si te gustó este proyecto o querés dar sugerencias, conectate conmigo en Linke
 
 ¡Feliz automatización! 🧪⚡️🐍
 
-yaml
-Copiar
-Editar
+
