@@ -40,7 +40,7 @@ try:
     # Rellenar formulario
     driver.find_element(By.ID, "nombre").send_keys("Daniel")
     driver.find_element(By.ID, "email").send_keys("danielduran1516@gmail.com")
-    driver.find_element(By.ID, "asunto").send_keys("Prueba de observabilidad")
+    driver.find_element(By.ID, "asunto").send_keys("Prueba de monitoreo")
     driver.find_element(By.ID, "mensaje").send_keys("Este mensaje fue enviado por Selenium.")
     log_result("Rellenar formulario de contacto", "OK")
 
@@ -62,9 +62,9 @@ finally:
 
     # Guardar reporte CSV
     df = pd.DataFrame(resultados)
-    df.to_csv("reporte_observabilidad.csv", index=False)
+    df.to_csv("reporte_monitoreo.csv", index=False)
 
     # Guardar reporte HTML 
-    df.to_html("reporte_observabilidad.html", index=False)
+    df.to_html("reporte_monitoreo.html", index=False)
 
-    print("✅ Monitoreo finalizado. Revisa 'reporte_observabilidad.csv', '.html' y 'screenshots/'")
+    print("✅ Monitoreo finalizado. Revisa 'reporte_monitoreo.csv', '.html' y 'screenshots/'")
