@@ -1,131 +1,122 @@
-# Observabilidad Web con Python & Selenium 🚀🐍
+Automatización y Monitoreo Web con Python & Selenium 🚀🐍
+¡Hola! 👋 Este proyecto es una demo simple pero funcional de automatización y monitoreo web usando Python y Selenium, aplicada a una web que desarrollé anteriormente.
 
-¡Hola! 👋 Este proyecto es una demo simple pero potente de monitoreo y automatización web con **Python** y **Selenium**, aplicada a una web sencilla que desarrollé anteriormente.
+Está pensado como punto de partida para tareas de automatización, pruebas básicas y generación de reportes visuales.
 
-Sirve como ejemplo para pruebas de **observabilidad web**, con reportes automatizados y manejo visual de errores.
+¿Qué hace? 🔍
+Este script automatiza una serie de acciones sobre la página Little Lemon:
 
----
+🌐 Abre la página principal
 
-## ¿Qué hace? 🔍
+📋 Navega al formulario de contacto
 
-Este script automatiza una serie de acciones sobre la página [Little Lemon](https://soydony.github.io/Little-Lemon/index.html):
+✍️ Completa y envía datos de prueba
 
-- 🌐 Abre la página principal.
-- 📋 Navega al formulario de contacto.
-- ✍️ Completa y envía datos de prueba.
-- ⚠️ Simula un error intencional buscando un elemento inexistente.
-- 📸 Toma capturas de pantalla si algo falla.
-- 📊 Registra todo en archivos CSV y HTML.
+⚠️ Simula un error intencional buscando un elemento inexistente
 
----
+📸 Toma capturas si algo falla
 
-## ¿Por qué este proyecto? 💡
+📊 Guarda los resultados en CSV y HTML
 
+¿Por qué este proyecto? 💡
 Quería mostrar mis primeras habilidades en:
 
-- Automatización con **Selenium**
-- Pruebas automatizadas y controladas
-- Generación de logs y reportes
-- Observabilidad visual de fallas
+Automatización web con Selenium
 
+Pruebas controladas y scripting básico
 
----
+Reportes automatizados con visualización
 
-## Requisitos 🛠️
+Registro de errores con capturas
 
-- Python 3.7 o superior
-- [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)  
-  ⚠️ No olvides ajustar la ruta del driver en el script `monitor.py`
-- Librerías necesarias:
+Ideal para aprender, experimentar o compartir en GitHub y LinkedIn como ejemplo práctico 📚💼
 
-```bash
+Requisitos 🛠️
+Python 3.7 o superior
+
+Microsoft Edge WebDriver
+⚠️ No olvides ajustar la ruta del driver en el script monitor.py
+
+Librerías necesarias:
+
+bash
+Copiar
+Editar
 pip install -r requirements.txt
-```
-
----
-
-## Instalación y uso 🚀
-
+Instalación y uso 🚀
 Cloná el proyecto:
 
-```bash
+bash
+Copiar
+Editar
 git clone https://github.com/SoyDony/observabilidad-web-python-selenium.git
 cd observabilidad-web-python-selenium
-```
-
 Instalá las dependencias:
 
-```bash
+bash
+Copiar
+Editar
 pip install -r requirements.txt
-```
-
 Ejecutá el script principal:
 
-```bash
+bash
+Copiar
+Editar
 python monitor.py
-```
-
----
-
-## ¿Qué vas a ver? 👀
-
+¿Qué vas a ver? 👀
 Al ejecutar el script, se generarán automáticamente:
 
-- 📁 `reporte_observabilidad.csv` → Registro de resultados
-- 📁 `reporte_observabilidad.html` → Visualización amigable en navegador
-- 📁 `screenshots/` → Capturas de pantalla (solo si ocurre un error)
+📁 reporte_observabilidad.csv → Registro de resultados
 
-También verás en consola cada paso del proceso y el resultado final.
+📁 reporte_observabilidad.html → Visualización amigable en navegador
 
----
+📁 screenshots/ → Capturas de pantalla si ocurre un error
 
-## Estructura del proyecto 📂
+También verás en consola el paso a paso y los mensajes de estado.
 
-```
+Estructura del proyecto 📂
+bash
+Copiar
+Editar
 observabilidad-web-python-selenium/
 ├── monitor.py            # Script principal
 ├── requirements.txt      # Dependencias
 ├── README.md             # Este archivo
 ├── .gitignore            # Archivos/carpetas ignoradas
-└── screenshots/          # Capturas si hay errores (se crea al correr el script)
-```
+└── screenshots/          # Capturas si hay errores (se crea automáticamente)
+Tips de personalización 🎨
+🔁 Probalo con otras URLs y adaptá los selectores
 
----
+⚙️ Sumá más validaciones o simulá distintos errores
 
-## Tips de personalización 🎨
+⏳ Ajustá los time.sleep() según el sitio web
 
-- 🔁 Probalo con otras URLs y formularios
-- ⚙️ Agregá validaciones y errores simulados
-- ⏳ Ajustá `time.sleep()` según el rendimiento del sitio
-- 📡 Base perfecta para un sistema de monitoreo real
+🧩 Útil como base para un sistema de monitoreo propio
 
----
+.gitignore recomendado 🧽
+Incluí este contenido en .gitignore para evitar subir archivos temporales:
 
-## .gitignore recomendado 🧽
-
-Incluí este contenido en `.gitignore`:
-
-```
+markdown
+Copiar
+Editar
 __pycache__/
 *.pyc
 screenshots/
 reporte_observabilidad.*
-```
-
----
-
-## requirements.txt 📦
-
+requirements.txt 📦
 Este archivo debe incluir:
 
-```
+nginx
+Copiar
+Editar
 selenium
 pandas
-```
+Licencia 📄
+MIT — Libre para usar, modificar y compartir ⭐
 
----
-
-¡Gracias por pasar! 🙌  
-Si te gustó este proyecto o querés dar feedback, no dudes en conectarte conmigo en [LinkedIn](https://www.linkedin.com/in/duran-daniel) o dejar una ⭐ en GitHub.
+¡Gracias por leer! 🙌
+Si te gustó este proyecto o querés dar sugerencias, conectate conmigo en LinkedIn o dejá una ⭐ en el repo.
 
 ¡Feliz automatización! 🧪⚡️🐍
+
+
