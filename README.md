@@ -47,8 +47,8 @@ Cloná el proyecto:
 bash
 Copiar
 Editar
-git clone https://github.com/SoyDony/observabilidad-web-python-selenium.git
-cd observabilidad-web-python-selenium
+git clone https://github.com/SoyDony/automatizacion-web-selenium.git
+cd automatizacion-web-selenium
 Instalá las dependencias:
 
 bash
@@ -76,7 +76,7 @@ Estructura del proyecto 📂
 bash
 Copiar
 Editar
-observabilidad-web-python-selenium/
+automatizacion-web-selenium/
 ├── monitor.py            # Script principal
 ├── requirements.txt      # Dependencias
 ├── README.md             # Este archivo
@@ -116,3 +116,7 @@ MIT — Libre para usar, modificar y compartir ⭐
 Si te gustó este proyecto o querés dar sugerencias, conectate conmigo en LinkedIn o dejá una ⭐ en el repo.
 
 ¡Feliz automatización! 🧪⚡️🐍
+
+yaml
+Copiar
+Editar
